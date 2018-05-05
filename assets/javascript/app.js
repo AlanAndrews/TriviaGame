@@ -1,7 +1,7 @@
 // vars defined here:
 var correct = 0;
 var wrong = 0;
-var timeLeft = 10;
+var timeLeft = 45;
 // function for running the timer
 function run() {
    clock = setInterval(decrement, 1000);
