@@ -27,6 +27,8 @@ function outOfTime() {
 }
 
 
+// couldn't get my win counter to start
+
 // function results() {
 //   if (document.getElementById("q1").checked) {
 //     var answer1 = document.getElementsByName("q1").value;
@@ -39,17 +41,17 @@ function outOfTime() {
 //   }
 // }
 
-function results() {
-    if ($("input[name=q1]:checked").val()) == "1"){
+// function results() {
+//     if ($("input[name=q1]:checked").val()) == "1"){
      
-      console.log("hi");
+//       console.log("hi");
  
-      var answer1 = document.getElementsByName("q1").value;
-      if (answer1 == 1) {
-        correct++;
-        }
-      if (answer1 != 1) {
-        wrong++;
-        }
-    }
-  }
+//       var answer1 = document.getElementsByName("q1").value;
+//       if (answer1 == 1) {
+//         correct++;
+//         }
+//       if (answer1 != 1) {
+//         wrong++;
+//         }
+//     }
+//   }
